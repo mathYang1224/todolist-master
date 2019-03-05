@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+body {
+    background: #83b17c;
+    color: #fff;
+}
+.head{
+    padding: 0 10px;
+}
+.head input {
+    width: 80%;
+    height: 30px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.head button {
+    width: 20%;
+    height: 30px;
+    color: #fff;
+    background: #217370;
+    float: left;
+}
+.content{
+    padding: 0 10px;
+}
+.content .top,.content .bottom{
+    height: 40px;
+    background: #000;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.content .bottom input{
+    vertical-align: middle;
+}
+.content .bottom span{
+    padding-left: 20px;
+}
+.content .top input{
+    vertical-align: middle;
+}
+.content .top span{
+    padding-left: 20px;
+}
+.content ul li{
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    transition: background 0.2s;
+}
+.content ul li a{
+    margin-left: 10px;
+}
+.content ul li:first-child{
+    margin-top: 10px;
+}
+.content ul.todo li:hover{
+    background: rgba(0,0,0,.3);
+    color: #fff;
+}
+.content ul li span{
+    width: 50%;
+    display: inline-block;
+    padding-left: 20px;
+}
+.content ul.done li span{
+    text-decoration: line-through;
+}
+.content ul.done li{
+    background: #ccc;
+}
+.content ul.done li a{
+    color: #000;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.task_detail{
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    color: #000;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.task_detail input[name=content]{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.task_detail textarea{
+    background: #f1f1f1;
+    width: 100%;
+    height: 100px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.task_detail input[type=text]{
+    width: 100%;
+    background: #f1f1f1;
+    border:1px solid #ccc;
+    display: block;
+    padding: 10px  0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.task_detail img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.task_detail button{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    background: #217370;
+    color: #fff;
+}

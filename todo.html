@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="m_b10">TodoList</h1>
+        <div class="head m_b10 clearfix">
+            <input type="text" placeholder="write" class="p_l10">
+            <button type="submit">submit</button>
+        </div>
+        <div class="content">
+            <div class="top">
+                <input type="checkbox" />
+                <span>TODO</span>
+                <a href="" class="f_r delete_all hidden">del</a>
+            </div>
+            <ul class="todo">
+            </ul>
+            <div class="bottom">
+                <input type="checkbox" />
+                <span>DONE</span>
+                <a href="" class="f_r hidden delete_all">del</a>
+            </div>
+            <ul class="done">
+                
+            </ul>
+        </div>
+    </div>
+    <audio src="fly.mp3"></audio>
+    <div class="mask hidden"></div>
+    <div class="task_detail hidden">
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+    <script src="node_modules/store/dist/store.everything.min.js"></script>
+    <script src="js/base.js"></script>
+</body>
+
+</html>
